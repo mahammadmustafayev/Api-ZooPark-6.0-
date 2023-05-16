@@ -20,7 +20,8 @@ fetch(urlZoo)
           </ul>
           <div class="card-body">
             <a href="#" class="card-link">Qebul vaxti:${ele.acceptedTime}</a>
-            
+            <button class="btn btn-danger" >Delete</button>
+              <button class="btn btn-warning" ><a class="text-decoration-none text-white" href="update.html">Update</a></button>
           </div>
       </div>
           `

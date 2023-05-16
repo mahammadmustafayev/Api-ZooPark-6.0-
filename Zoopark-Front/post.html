@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Post</title>
+</head>
+<body class="container">
+    <div style="height: 10vh;" class=" w-100   d-flex align-items-center gap-3 container">
+        <button class="btn btn-success"><a class="text-decoration-none text-white" href="post.html">Add</a></button>
+        <button class="btn btn-primary"><a class="text-decoration-none text-white" href="get.html">Get(id)</a></button>
+        
+        
+     </div>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Aslan">
+    </div>
+    <div class="mb-3">
+      <label for="color" class="form-label">Color</label>
+      <input type="text" class="form-control" id="color" placeholder="Sari">
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" id="disi">
+        <label class="form-check-label" for="disi">
+          Disi
+        </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" id="erkek" checked>
+        <label class="form-check-label" for="erkek">
+          Erkek
+        </label>
+    </div>
+    <div class="mb-3">
+        <label for="time" class="form-label">AcceptedTime:</label>
+        <input type="datetime-local" class="form-control-lg" id="time" placeholder="Bu gun">
+    </div>
+    <div class="mb-3">
+        <label for="image" class="form-label">Image URL</label>
+        <input type="text" class="form-control" id="image" placeholder="aslan.jpg">
+      </div>
+</body>
+</html>

@@ -49,7 +49,7 @@ namespace Zoopark.Controllers
             Animal animaldb=_context.Animals.FirstOrDefault(a=>a.Id==id);
             if (animaldb is null) return StatusCode(StatusCodes.Status404NotFound, new { statuscode = 404, message = "Ay qoyun filan sey" });
             animaldb.Name = animal.Name;
-            animaldb.Gender=animal.Gender;
+            
             animaldb.Color=animal.Color;
             animaldb.ImageUrl = animal.ImageUrl;
             _context.SaveChanges();
